@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.header,
+.intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+}
+
+.header p {
+    margin-left: 50px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 22px;
+    margin-right: 80px;
+}
+
+.intro-welcome {
+    margin-left: 250px;
+}
+
+.intro-welcome button,
+.sign button {
+    margin-left: 150px;
+    margin-bottom: 15px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 280px;
+}
+
+.information p {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px,
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.box-text {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    text-align: center;
+}
+
+.quote .author {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+}
