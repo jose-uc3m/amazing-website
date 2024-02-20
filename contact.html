@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Contact us</title>
-        <meta charset="UTF8"></meta>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="contact.css">
     </head>
     <body>
-        <p>TELEPHONE NUMBER: +34 3248o57</p>
-        <p>EMAIL: flirtflex@gmail.com</p>
-        <p>Address: Slobodarska Ulica (Atenica, Čačak)</p>
+        <div class="header">
+            <p>FlirtFlex</p>
+            <div class="links">
+                <a href="index.html" rel="noopener noreferrer">Homepage</a>
+                <a href="about.html" rel="noopener noreferrer">The Honey</a>
+                <a href="members.html" rel="noopener noreferrer">Our team</a>
+                <a href="partners.html" rel="noopener noreferrer">Our partners</a>
+            </div>
+        </div>
+
+        <p class="warn">GET IN TOUCH</p>
+
+        <div class="main">
+            <div class="address">
+                <p>
+                    ADDRESS <br> <img src="./images/maps-and-flags.png" alt="address-photo"> <br> Slobodarska Ulica (Atenica, Čačak)
+                </p>
+            </div>
+            <div class="phone">
+                <p>
+                    PHONE <br> <img src="./images/app-development.png" alt="phone photo"> <br> +34 123 456 789
+                </p>
+            </div>
+            <div class="email">
+                <p>
+                    EMAIL <br> <img src="./images/email.png" alt="email-photo"> <br> flirtflex@gmail.com
+                </p>
+            </div>
+        </div>
 
         <form action="/action_page.php" method="post">
             <label for="fname">First name:</label><br>
@@ -18,6 +45,5 @@
             <input type="text" id="email" name="email"><br>
             <input type="submit" value="Submit">
         </form>
-        <a href="index.html" rel="noopener noreferrer">Go back Home!</a>
     </body>
 </html>
